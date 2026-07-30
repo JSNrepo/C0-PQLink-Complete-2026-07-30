@@ -1,0 +1,10 @@
+keccak.c:38:13:keccak_f1600	75	static
+keccak.c:98:6:c0_sha3_256_init	2	static
+keccak.c:103:6:c0_sha3_512_init	2	static
+keccak.c:108:6:c0_shake128_init	2	static
+keccak.c:113:6:c0_shake256_init	2	static
+keccak.c:118:6:c0_keccak_absorb	16	static
+keccak.c:141:6:c0_keccak_finalize	10	static
+keccak.c:159:6:c0_keccak_squeeze	14	static
+keccak.c:182:6:c0_sha3_256	216	static
+keccak.c:195:6:c0_sha3_512	216	static

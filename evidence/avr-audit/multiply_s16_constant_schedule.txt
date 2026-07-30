@@ -1,0 +1,120 @@
+   0:	4f 92       	push	r4
+   2:	5f 92       	push	r5
+   4:	6f 92       	push	r6
+   6:	7f 92       	push	r7
+   8:	8f 92       	push	r8
+   a:	9f 92       	push	r9
+   c:	af 92       	push	r10
+   e:	bf 92       	push	r11
+  10:	cf 92       	push	r12
+  12:	df 92       	push	r13
+  14:	ef 92       	push	r14
+  16:	ff 92       	push	r15
+  18:	dc 01       	movw	r26, r24
+  1a:	7b 01       	movw	r14, r22
+  1c:	86 9f       	mul	r24, r22
+  1e:	60 01       	movw	r12, r0
+  20:	11 24       	eor	r1, r1
+  22:	87 9f       	mul	r24, r23
+  24:	f0 01       	movw	r30, r0
+  26:	11 24       	eor	r1, r1
+  28:	96 9f       	mul	r25, r22
+  2a:	a0 01       	movw	r20, r0
+  2c:	11 24       	eor	r1, r1
+  2e:	97 9f       	mul	r25, r23
+  30:	90 01       	movw	r18, r0
+  32:	11 24       	eor	r1, r1
+  34:	b6 01       	movw	r22, r12
+  36:	90 e0       	ldi	r25, 0x00	; 0
+  38:	80 e0       	ldi	r24, 0x00	; 0
+  3a:	4d 01       	movw	r8, r26
+  3c:	99 0c       	add	r9, r9
+  3e:	88 08       	sbc	r8, r8
+  40:	98 2c       	mov	r9, r8
+  42:	09 2c       	mov	r0, r9
+  44:	00 0c       	add	r0, r0
+  46:	aa 08       	sbc	r10, r10
+  48:	bb 08       	sbc	r11, r11
+  4a:	27 01       	movw	r4, r14
+  4c:	71 2c       	mov	r7, r1
+  4e:	61 2c       	mov	r6, r1
+  50:	32 01       	movw	r6, r4
+  52:	55 24       	eor	r5, r5
+  54:	44 24       	eor	r4, r4
+  56:	48 20       	and	r4, r8
+  58:	59 20       	and	r5, r9
+  5a:	6a 20       	and	r6, r10
+  5c:	7b 20       	and	r7, r11
+  5e:	67 01       	movw	r12, r14
+  60:	dd 0c       	add	r13, r13
+  62:	cc 08       	sbc	r12, r12
+  64:	dc 2c       	mov	r13, r12
+  66:	0d 2c       	mov	r0, r13
+  68:	00 0c       	add	r0, r0
+  6a:	ee 08       	sbc	r14, r14
+  6c:	ff 08       	sbc	r15, r15
+  6e:	4d 01       	movw	r8, r26
+  70:	b1 2c       	mov	r11, r1
+  72:	a1 2c       	mov	r10, r1
+  74:	54 01       	movw	r10, r8
+  76:	99 24       	eor	r9, r9
+  78:	88 24       	eor	r8, r8
+  7a:	c8 20       	and	r12, r8
+  7c:	d9 20       	and	r13, r9
+  7e:	ea 20       	and	r14, r10
+  80:	fb 20       	and	r15, r11
+  82:	4c 0c       	add	r4, r12
+  84:	5d 1c       	adc	r5, r13
+  86:	6e 1c       	adc	r6, r14
+  88:	7f 1c       	adc	r7, r15
+  8a:	64 19       	sub	r22, r4
+  8c:	75 09       	sbc	r23, r5
+  8e:	86 09       	sbc	r24, r6
+  90:	97 09       	sbc	r25, r7
+  92:	6f 01       	movw	r12, r30
+  94:	f1 2c       	mov	r15, r1
+  96:	e1 2c       	mov	r14, r1
+  98:	fe 2c       	mov	r15, r14
+  9a:	ed 2c       	mov	r14, r13
+  9c:	dc 2c       	mov	r13, r12
+  9e:	cc 24       	eor	r12, r12
+  a0:	6c 0d       	add	r22, r12
+  a2:	7d 1d       	adc	r23, r13
+  a4:	8e 1d       	adc	r24, r14
+  a6:	9f 1d       	adc	r25, r15
+  a8:	6a 01       	movw	r12, r20
+  aa:	f1 2c       	mov	r15, r1
+  ac:	e1 2c       	mov	r14, r1
+  ae:	fe 2c       	mov	r15, r14
+  b0:	ed 2c       	mov	r14, r13
+  b2:	dc 2c       	mov	r13, r12
+  b4:	cc 24       	eor	r12, r12
+  b6:	6c 0d       	add	r22, r12
+  b8:	7d 1d       	adc	r23, r13
+  ba:	8e 1d       	adc	r24, r14
+  bc:	9f 1d       	adc	r25, r15
+  be:	50 e0       	ldi	r21, 0x00	; 0
+  c0:	40 e0       	ldi	r20, 0x00	; 0
+  c2:	a9 01       	movw	r20, r18
+  c4:	33 27       	eor	r19, r19
+  c6:	22 27       	eor	r18, r18
+  c8:	62 0f       	add	r22, r18
+  ca:	73 1f       	adc	r23, r19
+  cc:	84 1f       	adc	r24, r20
+  ce:	95 1f       	adc	r25, r21
+  d0:	ff 90       	pop	r15
+  d2:	ef 90       	pop	r14
+  d4:	df 90       	pop	r13
+  d6:	cf 90       	pop	r12
+  d8:	bf 90       	pop	r11
+  da:	af 90       	pop	r10
+  dc:	9f 90       	pop	r9
+  de:	8f 90       	pop	r8
+  e0:	7f 90       	pop	r7
+  e2:	6f 90       	pop	r6
+  e4:	5f 90       	pop	r5
+  e6:	4f 90       	pop	r4
+  e8:	08 95       	ret
+
+Disassembly of section .text.fqmul:
+

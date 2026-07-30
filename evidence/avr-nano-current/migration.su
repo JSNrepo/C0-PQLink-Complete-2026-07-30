@@ -1,0 +1,6 @@
+migration.c:9:13:encode_record	10	static
+migration.c:35:12:decode_record	8	static
+migration.c:70:5:c0pq_migration_load	188	static
+migration.c:123:5:c0pq_migration_transition_allowed	2	static
+migration.c:137:5:c0pq_migration_initialize	234	static
+migration.c:192:5:c0pq_migration_commit	218	static

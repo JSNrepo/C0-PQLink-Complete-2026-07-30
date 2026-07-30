@@ -1,0 +1,7 @@
+/build/
+/generated/
+/node_modules/
+/.npm-cache/
+/reference-peer/config.json
+/micropython/__pycache__/
+*.pyc

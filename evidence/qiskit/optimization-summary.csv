@@ -1,0 +1,15 @@
+experiment,optimization_level_or_iterations,qubits,depth,operations,cx_gates,success_metric,success_probability,shots,seed
+Shor-RSA15 optimization,0,8,328,578,180,factor-producing shot,0.502685546875,4096,20260730
+Shor-RSA15 optimization,1,8,324,535,180,factor-producing shot,0.502685546875,4096,20260730
+Shor-RSA15 optimization,2,8,316,470,174,factor-producing shot,0.500244140625,4096,20260730
+Shor-RSA15 optimization,3,8,316,470,174,factor-producing shot,0.500244140625,4096,20260730
+Grover-4bit optimization,0,4,200,364,84,target key,0.95849609375,4096,20260730
+Grover-4bit optimization,1,4,172,238,84,target key,0.95849609375,4096,20260730
+Grover-4bit optimization,2,4,167,232,84,target key,0.95849609375,4096,20260730
+Grover-4bit optimization,3,4,167,232,84,target key,0.95849609375,4096,20260730
+Grover-4bit iteration sweep,0,4,4,16,0,target key,0.06494140625,4096,20260730
+Grover-4bit iteration sweep,1,4,59,88,28,target key,0.47509765625,4096,20260731
+Grover-4bit iteration sweep,2,4,113,160,56,target key,0.905029296875,4096,20260732
+Grover-4bit iteration sweep,3,4,167,232,84,target key,0.961181640625,4096,20260733
+Grover-4bit iteration sweep,4,4,221,304,112,target key,0.589111328125,4096,20260734
+Grover-4bit iteration sweep,5,4,275,376,140,target key,0.120361328125,4096,20260735

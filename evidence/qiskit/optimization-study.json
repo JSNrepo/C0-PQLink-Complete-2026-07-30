@@ -1,0 +1,730 @@
+{
+  "configuration": {
+    "base_seed": 20260730,
+    "grover_iteration_sweep": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "optimization_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "shots_per_run": 4096,
+    "timing_note": "Observed wall-clock compile/simulation times are environment dependent; circuit metrics and seeded counts are the primary reproducible evidence."
+  },
+  "experiment": "qiskit_circuit_optimization_study",
+  "grover_iteration_sweep": [
+    {
+      "circuit": {
+        "classical_bits": 4,
+        "depth": 4,
+        "operation_counts": {
+          "measure": 4,
+          "rz": 8,
+          "sx": 4
+        },
+        "operation_width_counts": {
+          "measurement": 4,
+          "one_qubit": 12,
+          "three_or_more_qubit": 0,
+          "two_qubit": 0
+        },
+        "qubits": 4,
+        "size": 16
+      },
+      "compile_time_ns_observed": 11048537,
+      "iterations": 0,
+      "optimization_level": 3,
+      "raw_counts": {
+        "0000": 256,
+        "0001": 257,
+        "0010": 239,
+        "0011": 264,
+        "0100": 243,
+        "0101": 267,
+        "0110": 268,
+        "0111": 263,
+        "1000": 260,
+        "1001": 252,
+        "1010": 252,
+        "1011": 266,
+        "1100": 270,
+        "1101": 243,
+        "1110": 259,
+        "1111": 237
+      },
+      "result": {
+        "most_frequent_key": "1100",
+        "target_hits": 266,
+        "target_key_binary": "1011",
+        "target_probability": 0.06494140625
+      },
+      "seed_simulator": 20260730,
+      "seed_transpiler": 20260730,
+      "simulation_time_ns_observed": 21627363
+    },
+    {
+      "circuit": {
+        "classical_bits": 4,
+        "depth": 59,
+        "operation_counts": {
+          "cx": 28,
+          "measure": 4,
+          "rz": 44,
+          "sx": 12
+        },
+        "operation_width_counts": {
+          "measurement": 4,
+          "one_qubit": 56,
+          "three_or_more_qubit": 0,
+          "two_qubit": 28
+        },
+        "qubits": 4,
+        "size": 88
+      },
+      "compile_time_ns_observed": 5297561,
+      "iterations": 1,
+      "optimization_level": 3,
+      "raw_counts": {
+        "0000": 138,
+        "0001": 143,
+        "0010": 128,
+        "0011": 156,
+        "0100": 137,
+        "0101": 158,
+        "0110": 151,
+        "0111": 149,
+        "1000": 131,
+        "1001": 147,
+        "1010": 124,
+        "1011": 1946,
+        "1100": 141,
+        "1101": 147,
+        "1110": 151,
+        "1111": 149
+      },
+      "result": {
+        "most_frequent_key": "1011",
+        "target_hits": 1946,
+        "target_key_binary": "1011",
+        "target_probability": 0.47509765625
+      },
+      "seed_simulator": 20260731,
+      "seed_transpiler": 20260731,
+      "simulation_time_ns_observed": 3801418
+    },
+    {
+      "circuit": {
+        "classical_bits": 4,
+        "depth": 113,
+        "operation_counts": {
+          "cx": 56,
+          "measure": 4,
+          "rz": 80,
+          "sx": 20
+        },
+        "operation_width_counts": {
+          "measurement": 4,
+          "one_qubit": 100,
+          "three_or_more_qubit": 0,
+          "two_qubit": 56
+        },
+        "qubits": 4,
+        "size": 160
+      },
+      "compile_time_ns_observed": 7929233,
+      "iterations": 2,
+      "optimization_level": 3,
+      "raw_counts": {
+        "0000": 26,
+        "0001": 32,
+        "0010": 34,
+        "0011": 22,
+        "0100": 20,
+        "0101": 34,
+        "0110": 26,
+        "0111": 29,
+        "1000": 20,
+        "1001": 21,
+        "1010": 36,
+        "1011": 3707,
+        "1100": 20,
+        "1101": 21,
+        "1110": 23,
+        "1111": 25
+      },
+      "result": {
+        "most_frequent_key": "1011",
+        "target_hits": 3707,
+        "target_key_binary": "1011",
+        "target_probability": 0.905029296875
+      },
+      "seed_simulator": 20260732,
+      "seed_transpiler": 20260732,
+      "simulation_time_ns_observed": 5298093
+    },
+    {
+      "circuit": {
+        "classical_bits": 4,
+        "depth": 167,
+        "operation_counts": {
+          "cx": 84,
+          "measure": 4,
+          "rz": 116,
+          "sx": 28
+        },
+        "operation_width_counts": {
+          "measurement": 4,
+          "one_qubit": 144,
+          "three_or_more_qubit": 0,
+          "two_qubit": 84
+        },
+        "qubits": 4,
+        "size": 232
+      },
+      "compile_time_ns_observed": 10487180,
+      "iterations": 3,
+      "optimization_level": 3,
+      "raw_counts": {
+        "0000": 12,
+        "0001": 10,
+        "0010": 12,
+        "0011": 13,
+        "0100": 9,
+        "0101": 6,
+        "0110": 10,
+        "0111": 6,
+        "1000": 13,
+        "1001": 17,
+        "1010": 8,
+        "1011": 3937,
+        "1100": 12,
+        "1101": 11,
+        "1110": 9,
+        "1111": 11
+      },
+      "result": {
+        "most_frequent_key": "1011",
+        "target_hits": 3937,
+        "target_key_binary": "1011",
+        "target_probability": 0.961181640625
+      },
+      "seed_simulator": 20260733,
+      "seed_transpiler": 20260733,
+      "simulation_time_ns_observed": 6658810
+    },
+    {
+      "circuit": {
+        "classical_bits": 4,
+        "depth": 221,
+        "operation_counts": {
+          "cx": 112,
+          "measure": 4,
+          "rz": 152,
+          "sx": 36
+        },
+        "operation_width_counts": {
+          "measurement": 4,
+          "one_qubit": 188,
+          "three_or_more_qubit": 0,
+          "two_qubit": 112
+        },
+        "qubits": 4,
+        "size": 304
+      },
+      "compile_time_ns_observed": 12637749,
+      "iterations": 4,
+      "optimization_level": 3,
+      "raw_counts": {
+        "0000": 109,
+        "0001": 112,
+        "0010": 102,
+        "0011": 105,
+        "0100": 110,
+        "0101": 114,
+        "0110": 118,
+        "0111": 114,
+        "1000": 115,
+        "1001": 109,
+        "1010": 119,
+        "1011": 2413,
+        "1100": 110,
+        "1101": 117,
+        "1110": 120,
+        "1111": 109
+      },
+      "result": {
+        "most_frequent_key": "1011",
+        "target_hits": 2413,
+        "target_key_binary": "1011",
+        "target_probability": 0.589111328125
+      },
+      "seed_simulator": 20260734,
+      "seed_transpiler": 20260734,
+      "simulation_time_ns_observed": 8129625
+    },
+    {
+      "circuit": {
+        "classical_bits": 4,
+        "depth": 275,
+        "operation_counts": {
+          "cx": 140,
+          "measure": 4,
+          "rz": 188,
+          "sx": 44
+        },
+        "operation_width_counts": {
+          "measurement": 4,
+          "one_qubit": 232,
+          "three_or_more_qubit": 0,
+          "two_qubit": 140
+        },
+        "qubits": 4,
+        "size": 376
+      },
+      "compile_time_ns_observed": 11075006,
+      "iterations": 5,
+      "optimization_level": 3,
+      "raw_counts": {
+        "0000": 234,
+        "0001": 239,
+        "0010": 224,
+        "0011": 243,
+        "0100": 253,
+        "0101": 228,
+        "0110": 264,
+        "0111": 251,
+        "1000": 233,
+        "1001": 233,
+        "1010": 203,
+        "1011": 493,
+        "1100": 239,
+        "1101": 215,
+        "1110": 269,
+        "1111": 275
+      },
+      "result": {
+        "most_frequent_key": "1011",
+        "target_hits": 493,
+        "target_key_binary": "1011",
+        "target_probability": 0.120361328125
+      },
+      "seed_simulator": 20260735,
+      "seed_transpiler": 20260735,
+      "simulation_time_ns_observed": 6812655
+    }
+  ],
+  "optimization_comparison": {
+    "compiled_shor_order_finding_toy_rsa_15": {
+      "logical_circuit": {
+        "classical_bits": 4,
+        "depth": 14,
+        "operation_counts": {
+          "c2^1 mod 15": 1,
+          "c2^2 mod 15": 1,
+          "c2^4 mod 15": 1,
+          "c2^8 mod 15": 1,
+          "cp": 6,
+          "h": 8,
+          "measure": 4,
+          "swap": 2,
+          "x": 1
+        },
+        "operation_width_counts": {
+          "measurement": 4,
+          "one_qubit": 9,
+          "three_or_more_qubit": 4,
+          "two_qubit": 8
+        },
+        "qubits": 8,
+        "size": 25
+      },
+      "transpiled_runs": [
+        {
+          "circuit": {
+            "classical_bits": 4,
+            "depth": 328,
+            "operation_counts": {
+              "cx": 180,
+              "measure": 4,
+              "rz": 331,
+              "sx": 62,
+              "x": 1
+            },
+            "operation_width_counts": {
+              "measurement": 4,
+              "one_qubit": 394,
+              "three_or_more_qubit": 0,
+              "two_qubit": 180
+            },
+            "qubits": 8,
+            "size": 578
+          },
+          "compile_time_ns_observed": 6505330,
+          "optimization_level": 0,
+          "raw_counts": {
+            "0000": 1010,
+            "0100": 1037,
+            "1000": 1027,
+            "1100": 1022
+          },
+          "result": {
+            "recovered_candidates": {
+              "order=4;factors=3x5": 2059
+            },
+            "successful_factor_probability": 0.502685546875,
+            "successful_factor_shots": 2059
+          },
+          "simulation_time_ns_observed": 11906820
+        },
+        {
+          "circuit": {
+            "classical_bits": 4,
+            "depth": 324,
+            "operation_counts": {
+              "cx": 180,
+              "measure": 4,
+              "rz": 292,
+              "sx": 58,
+              "x": 1
+            },
+            "operation_width_counts": {
+              "measurement": 4,
+              "one_qubit": 351,
+              "three_or_more_qubit": 0,
+              "two_qubit": 180
+            },
+            "qubits": 8,
+            "size": 535
+          },
+          "compile_time_ns_observed": 8573891,
+          "optimization_level": 1,
+          "raw_counts": {
+            "0000": 1010,
+            "0100": 1037,
+            "1000": 1027,
+            "1100": 1022
+          },
+          "result": {
+            "recovered_candidates": {
+              "order=4;factors=3x5": 2059
+            },
+            "successful_factor_probability": 0.502685546875,
+            "successful_factor_shots": 2059
+          },
+          "simulation_time_ns_observed": 9992426
+        },
+        {
+          "circuit": {
+            "classical_bits": 4,
+            "depth": 316,
+            "operation_counts": {
+              "cx": 174,
+              "measure": 4,
+              "rz": 235,
+              "sx": 56,
+              "x": 1
+            },
+            "operation_width_counts": {
+              "measurement": 4,
+              "one_qubit": 292,
+              "three_or_more_qubit": 0,
+              "two_qubit": 174
+            },
+            "qubits": 8,
+            "size": 470
+          },
+          "compile_time_ns_observed": 13290159,
+          "optimization_level": 2,
+          "raw_counts": {
+            "0000": 1010,
+            "0100": 1027,
+            "1000": 1037,
+            "1100": 1022
+          },
+          "result": {
+            "recovered_candidates": {
+              "order=4;factors=3x5": 2049
+            },
+            "successful_factor_probability": 0.500244140625,
+            "successful_factor_shots": 2049
+          },
+          "simulation_time_ns_observed": 8857277
+        },
+        {
+          "circuit": {
+            "classical_bits": 4,
+            "depth": 316,
+            "operation_counts": {
+              "cx": 174,
+              "measure": 4,
+              "rz": 235,
+              "sx": 56,
+              "x": 1
+            },
+            "operation_width_counts": {
+              "measurement": 4,
+              "one_qubit": 292,
+              "three_or_more_qubit": 0,
+              "two_qubit": 174
+            },
+            "qubits": 8,
+            "size": 470
+          },
+          "compile_time_ns_observed": 11800439,
+          "optimization_level": 3,
+          "raw_counts": {
+            "0000": 1010,
+            "0100": 1027,
+            "1000": 1037,
+            "1100": 1022
+          },
+          "result": {
+            "recovered_candidates": {
+              "order=4;factors=3x5": 2049
+            },
+            "successful_factor_probability": 0.500244140625,
+            "successful_factor_shots": 2049
+          },
+          "simulation_time_ns_observed": 8937056
+        }
+      ]
+    },
+    "grover_search_toy_4_bit_key_three_iterations": {
+      "logical_circuit": {
+        "classical_bits": 4,
+        "depth": 32,
+        "operation_counts": {
+          "h": 40,
+          "mcx": 6,
+          "measure": 4,
+          "x": 30
+        },
+        "operation_width_counts": {
+          "measurement": 4,
+          "one_qubit": 70,
+          "three_or_more_qubit": 6,
+          "two_qubit": 0
+        },
+        "qubits": 4,
+        "size": 80
+      },
+      "transpiled_runs": [
+        {
+          "circuit": {
+            "classical_bits": 4,
+            "depth": 200,
+            "operation_counts": {
+              "cx": 84,
+              "measure": 4,
+              "rz": 194,
+              "sx": 52,
+              "x": 30
+            },
+            "operation_width_counts": {
+              "measurement": 4,
+              "one_qubit": 276,
+              "three_or_more_qubit": 0,
+              "two_qubit": 84
+            },
+            "qubits": 4,
+            "size": 364
+          },
+          "compile_time_ns_observed": 2737987,
+          "optimization_level": 0,
+          "raw_counts": {
+            "0000": 11,
+            "0001": 10,
+            "0010": 14,
+            "0011": 10,
+            "0100": 15,
+            "0101": 18,
+            "0110": 10,
+            "0111": 10,
+            "1000": 12,
+            "1001": 9,
+            "1010": 7,
+            "1011": 3926,
+            "1100": 10,
+            "1101": 11,
+            "1110": 10,
+            "1111": 13
+          },
+          "result": {
+            "most_frequent_key": "1011",
+            "target_hits": 3926,
+            "target_key_binary": "1011",
+            "target_probability": 0.95849609375
+          },
+          "simulation_time_ns_observed": 8916227
+        },
+        {
+          "circuit": {
+            "classical_bits": 4,
+            "depth": 172,
+            "operation_counts": {
+              "cx": 84,
+              "measure": 4,
+              "rz": 122,
+              "sx": 28
+            },
+            "operation_width_counts": {
+              "measurement": 4,
+              "one_qubit": 150,
+              "three_or_more_qubit": 0,
+              "two_qubit": 84
+            },
+            "qubits": 4,
+            "size": 238
+          },
+          "compile_time_ns_observed": 4571954,
+          "optimization_level": 1,
+          "raw_counts": {
+            "0000": 11,
+            "0001": 10,
+            "0010": 14,
+            "0011": 10,
+            "0100": 15,
+            "0101": 18,
+            "0110": 10,
+            "0111": 10,
+            "1000": 12,
+            "1001": 9,
+            "1010": 7,
+            "1011": 3926,
+            "1100": 10,
+            "1101": 11,
+            "1110": 10,
+            "1111": 13
+          },
+          "result": {
+            "most_frequent_key": "1011",
+            "target_hits": 3926,
+            "target_key_binary": "1011",
+            "target_probability": 0.95849609375
+          },
+          "simulation_time_ns_observed": 8244586
+        },
+        {
+          "circuit": {
+            "classical_bits": 4,
+            "depth": 167,
+            "operation_counts": {
+              "cx": 84,
+              "measure": 4,
+              "rz": 116,
+              "sx": 28
+            },
+            "operation_width_counts": {
+              "measurement": 4,
+              "one_qubit": 144,
+              "three_or_more_qubit": 0,
+              "two_qubit": 84
+            },
+            "qubits": 4,
+            "size": 232
+          },
+          "compile_time_ns_observed": 10713007,
+          "optimization_level": 2,
+          "raw_counts": {
+            "0000": 11,
+            "0001": 10,
+            "0010": 14,
+            "0011": 10,
+            "0100": 15,
+            "0101": 18,
+            "0110": 10,
+            "0111": 10,
+            "1000": 12,
+            "1001": 9,
+            "1010": 7,
+            "1011": 3926,
+            "1100": 10,
+            "1101": 11,
+            "1110": 10,
+            "1111": 13
+          },
+          "result": {
+            "most_frequent_key": "1011",
+            "target_hits": 3926,
+            "target_key_binary": "1011",
+            "target_probability": 0.95849609375
+          },
+          "simulation_time_ns_observed": 17629932
+        },
+        {
+          "circuit": {
+            "classical_bits": 4,
+            "depth": 167,
+            "operation_counts": {
+              "cx": 84,
+              "measure": 4,
+              "rz": 116,
+              "sx": 28
+            },
+            "operation_width_counts": {
+              "measurement": 4,
+              "one_qubit": 144,
+              "three_or_more_qubit": 0,
+              "two_qubit": 84
+            },
+            "qubits": 4,
+            "size": 232
+          },
+          "compile_time_ns_observed": 8560977,
+          "optimization_level": 3,
+          "raw_counts": {
+            "0000": 11,
+            "0001": 10,
+            "0010": 14,
+            "0011": 10,
+            "0100": 15,
+            "0101": 18,
+            "0110": 10,
+            "0111": 10,
+            "1000": 12,
+            "1001": 9,
+            "1010": 7,
+            "1011": 3926,
+            "1100": 10,
+            "1101": 11,
+            "1110": 10,
+            "1111": 13
+          },
+          "result": {
+            "most_frequent_key": "1011",
+            "target_hits": 3926,
+            "target_key_binary": "1011",
+            "target_probability": 0.95849609375
+          },
+          "simulation_time_ns_observed": 9109426
+        }
+      ]
+    }
+  },
+  "platform": {
+    "backend": "AerSimulator",
+    "basis_gates": [
+      "rz",
+      "sx",
+      "x",
+      "cx"
+    ],
+    "is_quantum_hardware": false,
+    "method": "statevector",
+    "sdk": "Qiskit",
+    "simulator": "Qiskit Aer"
+  },
+  "scope_warning": "Small educational circuit optimization only. These runs do not break or prove the security of RSA-2048, ECC, ML-KEM, or Ascon.",
+  "versions": {
+    "python": "3.14.6",
+    "qiskit": "2.5.1",
+    "qiskit_aer": "0.17.2"
+  }
+}

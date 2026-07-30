@@ -1,0 +1,9 @@
+ascon_aead128.c:14:17:load_little_endian	13	static
+ascon_aead128.c:41:13:ascon_round	66	static
+ascon_aead128.c:73:13:ascon_permute12	6	static
+ascon_aead128.c:84:13:ascon_permute8	6	static
+ascon_aead128.c:96:13:initialize	24	static
+ascon_aead128.c:114:13:absorb_associated_data	20	static
+ascon_aead128.c:141:13:finalize_tag	24	static
+ascon_aead128.c:158:6:c0_ascon_aead128_encrypt	81	static
+ascon_aead128.c:204:5:c0_ascon_aead128_decrypt	109	static

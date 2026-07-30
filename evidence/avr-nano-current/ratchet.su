@@ -1,0 +1,4 @@
+ratchet.c:7:6:c0pq_ratchet_step	44	static
+ratchet.c:34:6:c0pq_make_record_nonce	22	static
+ratchet.c:85:5:c0pq_client_seal_record	88	static
+ratchet.c:152:5:c0pq_client_open_record	108	static

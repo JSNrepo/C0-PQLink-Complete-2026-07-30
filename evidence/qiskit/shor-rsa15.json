@@ -1,0 +1,59 @@
+{
+  "circuit": {
+    "classical_bits": 4,
+    "depth": 33,
+    "operation_counts": {
+      "ccx": 27,
+      "cp": 6,
+      "h": 8,
+      "measure": 4,
+      "swap": 2,
+      "x": 1
+    },
+    "qubits": 8,
+    "size": 48
+  },
+  "configuration": {
+    "counting_qubits": 4,
+    "modulus": 15,
+    "order_base": 2,
+    "seed_simulator": 20260730,
+    "seed_transpiler": 20260730,
+    "shots": 4096,
+    "work_qubits": 4
+  },
+  "experiment": "compiled_shor_order_finding_toy_rsa_15",
+  "post_processing": {
+    "recovered_factors": [
+      3,
+      5
+    ],
+    "recovered_order": 4,
+    "successful_factor_fraction": 0.500244140625,
+    "successful_factor_shots": 2049,
+    "winning_candidate_occurrences": 2049
+  },
+  "raw_counts": {
+    "0000": 1029,
+    "0100": 1019,
+    "1000": 1018,
+    "1100": 1030
+  },
+  "scope_warning": "Educational small-instance simulation only; this is not an RSA-2048, ECC, ML-KEM, or Ascon break.",
+  "toy_rsa_attack": {
+    "attack_succeeded": true,
+    "ciphertext": 8,
+    "decrypted_message": 2,
+    "message": 2,
+    "public_key": {
+      "e": 3,
+      "n": 15
+    },
+    "recovered_private_exponent": 3
+  },
+  "versions": {
+    "python": "3.14.6",
+    "qiskit": "2.5.1",
+    "qiskit_aer": "0.17.2"
+  }
+}

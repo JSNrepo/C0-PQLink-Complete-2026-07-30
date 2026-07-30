@@ -1,0 +1,6 @@
+preflight.c:7:5:c0pq_encode_header	6	static
+preflight.c:28:5:c0pq_decode_header	6	static
+preflight.c:53:5:c0pq_encode_hello	46	static
+preflight.c:88:5:c0pq_decode_verify_hello	52	static
+preflight.c:134:5:c0pq_encode_challenge	54	dynamic,bounded
+preflight.c:179:5:c0pq_decode_verify_challenge	64	dynamic,bounded

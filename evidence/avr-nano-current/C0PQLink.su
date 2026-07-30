@@ -1,0 +1,13 @@
+C0PQLink.cpp:109:9:static uint8_t C0PQLink::Client::readPublicKey(void*, uint16_t)	2	static
+C0PQLink.cpp:115:5:static int C0PQLink::Client::fillRandom(void*, uint8_t*, size_t)	2	static
+C0PQLink.cpp:121:5:static int C0PQLink::Client::sendFrame(void*, const uint8_t*, size_t)	2	static
+C0PQLink.cpp:131:5:static int C0PQLink::Client::receiveFrame(void*, uint8_t*, size_t, size_t*, uint32_t)	12	static
+C0PQLink.cpp:7:1:C0PQLink::Client::Client()	2	static
+C0PQLink.cpp:13:5:int C0PQLink::Client::begin(const uint8_t*, const uint8_t*, uint64_t, const uint8_t*, C0PQLink::PublicKeySource&, C0PQLink::RandomSource&, C0PQLink::Transport&, C0PQLink::SessionMode, uint32_t, uint8_t)	101	static
+C0PQLink.cpp:48:5:int C0PQLink::Client::connect(C0PQLink::Workspace&)	2	static
+C0PQLink.cpp:53:5:int C0PQLink::Client::seal(const uint8_t*, size_t, uint8_t*, size_t, size_t&)	6	static
+C0PQLink.cpp:71:5:int C0PQLink::Client::open(const uint8_t*, size_t, uint8_t*, size_t, size_t&)	6	static
+C0PQLink.cpp:89:6:void C0PQLink::Client::close()	2	static
+C0PQLink.cpp:94:19:c0pq_client_state C0PQLink::Client::state() const	2	static
+C0PQLink.cpp:99:14:c0pq_client& C0PQLink::Client::raw()	2	static
+C0PQLink.cpp:104:20:const c0pq_client& C0PQLink::Client::raw() const	2	static

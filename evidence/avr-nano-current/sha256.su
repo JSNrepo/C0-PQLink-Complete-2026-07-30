@@ -1,0 +1,12 @@
+sha256.c:62:13:sha256_transform	154	static
+sha256.c:144:6:c0_sha256_update.part.0	18	static
+sha256.c:129:6:c0_sha256_init	2	static
+sha256.c:144:6:c0_sha256_update	2	static
+sha256.c:177:6:c0_sha256_final	20	static
+sha256.c:199:6:c0_sha256	115	static
+sha256.c:207:6:c0_hmac_sha256_init	106	static
+sha256.c:233:6:c0_hmac_sha256_update	2	static
+sha256.c:242:6:c0_hmac_sha256_final	145	static
+sha256.c:255:6:c0_hmac_sha256	179	static
+sha256.c:269:6:c0_hkdf_sha256_extract	4	static
+sha256.c:294:5:c0_hkdf_sha256_expand	222	static

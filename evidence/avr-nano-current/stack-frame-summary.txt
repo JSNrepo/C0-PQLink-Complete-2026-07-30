@@ -1,0 +1,2 @@
+largest_single_compiler_frame_bytes=611
+largest_single_compiler_frame_record=fragment.c:276:5:c0pq_client_connect	611	dynamic,bounded

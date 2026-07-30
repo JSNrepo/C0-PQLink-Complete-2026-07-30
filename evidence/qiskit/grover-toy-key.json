@@ -1,0 +1,57 @@
+{
+  "circuit": {
+    "classical_bits": 4,
+    "depth": 14,
+    "operation_counts": {
+      "h": 2,
+      "mcx": 6,
+      "measure": 4,
+      "u1": 1,
+      "u2": 24
+    },
+    "qubits": 4,
+    "size": 37
+  },
+  "configuration": {
+    "classical_average_oracle_queries": 8.5,
+    "classical_worst_case_oracle_queries": 16,
+    "grover_iterations": 3,
+    "key_bits": 4,
+    "search_space": 16,
+    "seed_simulator": 20260730,
+    "seed_transpiler": 20260730,
+    "shots": 4096,
+    "target_key_binary": "1011"
+  },
+  "experiment": "grover_search_toy_4_bit_key",
+  "raw_counts": {
+    "0000": 11,
+    "0001": 10,
+    "0010": 14,
+    "0011": 10,
+    "0100": 15,
+    "0101": 18,
+    "0110": 10,
+    "0111": 10,
+    "1000": 12,
+    "1001": 9,
+    "1010": 7,
+    "1011": 3926,
+    "1100": 10,
+    "1101": 11,
+    "1110": 10,
+    "1111": 13
+  },
+  "result": {
+    "attack_succeeded": true,
+    "most_frequent_key": "1011",
+    "target_hits": 3926,
+    "target_probability": 0.95849609375
+  },
+  "scope_warning": "Educational reduced-key experiment only; this is not an attack on a 128-bit Ascon key or a 256-bit ML-KEM shared secret.",
+  "versions": {
+    "python": "3.14.6",
+    "qiskit": "2.5.1",
+    "qiskit_aer": "0.17.2"
+  }
+}

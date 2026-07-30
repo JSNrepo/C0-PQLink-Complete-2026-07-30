@@ -1,0 +1,6 @@
+fragment.c:17:12:send_and_receive	41	static
+fragment.c:62:12:flush_ciphertext_fragment	124	static
+fragment.c:126:12:write_ciphertext	20	static
+fragment.c:156:5:c0pq_client_init	2	static
+fragment.c:276:5:c0pq_client_connect	611	dynamic,bounded
+fragment.c:477:6:c0pq_client_close	4	static

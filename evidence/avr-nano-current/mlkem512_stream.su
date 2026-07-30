@@ -1,0 +1,14 @@
+mlkem512_stream.c:136:1:multiply_s16_constant_schedule	14	static
+mlkem512_stream.c:167:16:barrett_reduce	4	static
+mlkem512_stream.c:184:16:fqmul	6	static
+mlkem512_stream.c:197:13:ntt	26	static
+mlkem512_stream.c:216:13:inverse_ntt	26	static
+mlkem512_stream.c:247:13:base_multiply_add	16	static
+mlkem512_stream.c:465:17:compress10	14	static
+mlkem512_stream.c:354:17:sample_ntt_next	10	static
+mlkem512_stream.c:56:6:c0pqlink_secure_zero	2	static
+mlkem512_stream.c:270:13:sample_cbd	50	static
+mlkem512_stream.c:66:5:c0pqlink_ct_equal	2	static
+mlkem512_stream.c:556:5:c0_mlkem512_encapsulate_derand	105	static
+mlkem512_stream.c:759:5:c0_mlkem512_encapsulate	52	static
+mlkem512_stream.c:792:8:c0_mlkem512_workspace_bytes	2	static
