@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "profile": "C0-PQLink ML-KEM-512 baseline",
+  "target": "ATmega328P / classic Arduino Nano",
+  "flash_bytes": 20118,
+  "linker_static_sram_bytes": 2016,
+  "largest_connect_frame_bytes": 611,
+  "minimum_required_sram_bytes": 2627,
+  "minimum_overflow_bytes": 579,
+  "result": "FAIL",
+  "measurement": "AVR link map plus compiler stack-usage record",
+  "note": "This lower bound excludes interrupt, transport, and additional nested-call margin."
+}

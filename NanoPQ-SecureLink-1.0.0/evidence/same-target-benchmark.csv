@@ -1,0 +1,5 @@
+profile,role,standard,public_key_bytes,ciphertext_or_signature_bytes,flash_bytes,static_sram_bytes,executed_peak_stack_bytes,total_peak_sram_bytes,sram_headroom_bytes,authorization_ms_at_16mhz,state_model,target_evidence,result
+C0 ML-KEM-512 baseline,KEM each session,FIPS 203,800,768,20118,2016,611,2627,-579,,stateless KEM,link + compiler frame lower bound,FAIL
+NanoPQ LMS H5/W4,rare authorization + PSK session,RFC 8554 / NIST SP 800-208,56,2348,18188,587,767,1354,694,6596.143,stateful authority; stateless Nano verifier,full compiled AVR execution,PASS_SIMULATOR
+NanoPQ LMS H5/W8,rare authorization + PSK session,RFC 8554 / NIST SP 800-208,56,1292,18188,587,767,1354,694,47092.135,stateful authority; stateless Nano verifier,full compiled AVR execution,PASS_SIMULATOR
+NanoPQ SLH-DSA-SHA2-128s,rare authorization + PSK session,FIPS 205,32,7856,19268,597,767,1364,684,23638.098,stateless authority and verifier,full compiled AVR execution,PASS_SIMULATOR

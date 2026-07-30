@@ -1,0 +1,23 @@
+{
+  "name": "nanopq-securelink",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Post-quantum-authorized secure live link for ATmega328P",
+  "license": "MIT",
+  "scripts": {
+    "test": "make host-test",
+    "verify": "make verify",
+    "sanitize": "make sanitizer-test",
+    "simulate": "make simulate",
+    "benchmark": "make benchmark"
+  },
+  "dependencies": {
+    "avr8js": "0.21.0"
+  },
+  "devDependencies": {
+    "quirkbot-avr-gcc": "2.0.4"
+  },
+  "allowScripts": {
+    "quirkbot-avr-gcc@2.0.4": true
+  }
+}

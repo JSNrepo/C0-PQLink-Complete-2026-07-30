@@ -1,0 +1,23 @@
+{
+  "acts": [
+    {
+      "act": 1,
+      "elapsed": 0.095,
+      "top_outcome": "0000",
+      "factored": "15=3x5"
+    },
+    {
+      "act": 2,
+      "elapsed": 0.066,
+      "target_prob": 96.3
+    },
+    {
+      "act": 3,
+      "elapsed": 0.067,
+      "leaf_hash": "65497e2211bb62276263c090b6286003c756d2d153f749caf0d7cbaf59a7d376",
+      "target": "00101",
+      "prob": 100.0
+    }
+  ],
+  "backend": "aer_simulator_statevector"
+}

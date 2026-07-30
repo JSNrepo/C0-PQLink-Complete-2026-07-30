@@ -1,0 +1,803 @@
+Archive member included to satisfy reference by file (symbol)
+
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                              /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o (exit)
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+                              build/avr-slh/main.o (__do_copy_data)
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+                              build/avr-slh/main.o (__do_clear_bss)
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+                              build/avr-slh/common.o (__bswapsi2)
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+                              build/avr-slh/ascon_aead128.o (__ashldi3)
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+                              build/avr-slh/ascon_aead128.o (__lshrdi3)
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+                              build/avr-slh/ascon_aead128.o (__rotldi3)
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+                              build/avr-slh/sha256.o (memcpy)
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libc.a(memset.o)
+                              build/avr-slh/sha256.o (memset)
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eerd_block.o)
+                              build/avr-slh/main.o (eeprom_read_block)
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_block.o)
+                              build/avr-slh/main.o (eeprom_update_block)
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_byte.o)
+                              /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_block.o) (eeprom_update_r18)
+/tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_word.o)
+                              build/avr-slh/main.o (eeprom_update_word)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .text          0x0000000000000000        0x0 build/avr-slh/main.o
+ .data          0x0000000000000000        0x0 build/avr-slh/main.o
+ .bss           0x0000000000000000        0x0 build/avr-slh/main.o
+ .text          0x0000000000000000        0x0 build/avr-slh/common.o
+ .data          0x0000000000000000        0x0 build/avr-slh/common.o
+ .bss           0x0000000000000000        0x0 build/avr-slh/common.o
+ .text          0x0000000000000000        0x0 build/avr-slh/sha256.o
+ .data          0x0000000000000000        0x0 build/avr-slh/sha256.o
+ .bss           0x0000000000000000        0x0 build/avr-slh/sha256.o
+ .text.qp_sha256
+                0x0000000000000000       0x66 build/avr-slh/sha256.o
+ .text          0x0000000000000000        0x0 build/avr-slh/ascon_aead128.o
+ .data          0x0000000000000000        0x0 build/avr-slh/ascon_aead128.o
+ .bss           0x0000000000000000        0x0 build/avr-slh/ascon_aead128.o
+ .text          0x0000000000000000        0x0 build/avr-slh/protocol.o
+ .data          0x0000000000000000        0x0 build/avr-slh/protocol.o
+ .bss           0x0000000000000000        0x0 build/avr-slh/protocol.o
+ .text.npq_make_challenge
+                0x0000000000000000      0x116 build/avr-slh/protocol.o
+ .text.npq_close
+                0x0000000000000000        0xe build/avr-slh/protocol.o
+ .text          0x0000000000000000        0x0 build/avr-slh/slhdsa.o
+ .data          0x0000000000000000        0x0 build/avr-slh/slhdsa.o
+ .bss           0x0000000000000000        0x0 build/avr-slh/slhdsa.o
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc   0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eerd_block.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eerd_block.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eerd_block.o)
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_block.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_block.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_block.o)
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_byte.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_byte.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_byte.o)
+ .text          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_word.o)
+ .data          0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_word.o)
+ .bss           0x0000000000000000        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_word.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+LOAD build/avr-slh/main.o
+LOAD build/avr-slh/common.o
+LOAD build/avr-slh/sha256.o
+LOAD build/avr-slh/ascon_aead128.o
+LOAD build/avr-slh/protocol.o
+LOAD build/avr-slh/slhdsa.o
+START GROUP
+LOAD /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a
+LOAD /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libm.a
+LOAD /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libc.a
+LOAD /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x4a36
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000000000000068                . = ALIGN (0x2)
+                0x0000000000000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000068        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.NPQ_LEGACY_POLICY_DIGEST
+                0x0000000000000068       0x10 build/avr-slh/main.o
+ .progmem.data.NPQ_DEVICE_CLASS_ID
+                0x0000000000000078       0x10 build/avr-slh/main.o
+ .progmem.data.NPQ_SLHDSA_PUBLIC_KEY
+                0x0000000000000088       0x20 build/avr-slh/main.o
+ .progmem.data.NPQ_DEVICE_ID
+                0x00000000000000a8        0x8 build/avr-slh/main.o
+ .progmem.data.NPQ_DEVICE_ROOT
+                0x00000000000000b0       0x20 build/avr-slh/main.o
+ .progmem.data.QP_K
+                0x00000000000000d0      0x100 build/avr-slh/sha256.o
+                0x00000000000001d0                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000000000001d0                __ctors_start = .
+ *(.ctors)
+                0x00000000000001d0                __ctors_end = .
+                0x00000000000001d0                __dtors_start = .
+ *(.dtors)
+                0x00000000000001d0                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000000000001d0        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000000001d0                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000000000001d0        0xc /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000000000001dc       0x16 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+                0x00000000000001dc                __do_copy_data
+ .init4         0x00000000000001f2       0x10 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+                0x00000000000001f2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000202        0x8 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000000000020a        0x4 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x000000000000020a                __vector_22
+                0x000000000000020a                __vector_1
+                0x000000000000020a                __vector_24
+                0x000000000000020a                __vector_12
+                0x000000000000020a                __bad_interrupt
+                0x000000000000020a                __vector_6
+                0x000000000000020a                __vector_3
+                0x000000000000020a                __vector_23
+                0x000000000000020a                __vector_25
+                0x000000000000020a                __vector_11
+                0x000000000000020a                __vector_13
+                0x000000000000020a                __vector_17
+                0x000000000000020a                __vector_19
+                0x000000000000020a                __vector_7
+                0x000000000000020a                __vector_5
+                0x000000000000020a                __vector_4
+                0x000000000000020a                __vector_9
+                0x000000000000020a                __vector_2
+                0x000000000000020a                __vector_21
+                0x000000000000020a                __vector_15
+                0x000000000000020a                __vector_8
+                0x000000000000020a                __vector_14
+                0x000000000000020a                __vector_10
+                0x000000000000020a                __vector_16
+                0x000000000000020a                __vector_18
+                0x000000000000020a                __vector_20
+                0x000000000000020e                . = ALIGN (0x2)
+ *(.text.*)
+ .text.uart_getc_timeout
+                0x000000000000020e       0x32 build/avr-slh/main.o
+ .text.uart_read_frame
+                0x0000000000000240       0x7c build/avr-slh/main.o
+ .text.crc16_ccitt.constprop.4
+                0x00000000000002bc       0x32 build/avr-slh/main.o
+ .text.state_persist
+                0x00000000000002ee       0xd8 build/avr-slh/main.o
+ .text.state_valid
+                0x00000000000003c6       0x36 build/avr-slh/main.o
+ .text.fatal_blink
+                0x00000000000003fc       0x2a build/avr-slh/main.o
+ .text.uart_send_frame
+                0x0000000000000426       0x2a build/avr-slh/main.o
+ .text.signature_reader
+                0x0000000000000450       0x88 build/avr-slh/main.o
+ .text.startup.main
+                0x00000000000004d8      0x5a4 build/avr-slh/main.o
+                0x00000000000004d8                main
+ .text.npq_secure_zero
+                0x0000000000000a7c       0x14 build/avr-slh/common.o
+                0x0000000000000a7c                npq_secure_zero
+ .text.npq_constant_time_equal
+                0x0000000000000a90       0x2a build/avr-slh/common.o
+                0x0000000000000a90                npq_constant_time_equal
+ .text.npq_store_u32_be
+                0x0000000000000aba        0xc build/avr-slh/common.o
+                0x0000000000000aba                npq_store_u32_be
+ .text.npq_load_u32_be
+                0x0000000000000ac6       0x10 build/avr-slh/common.o
+                0x0000000000000ac6                npq_load_u32_be
+ .text.transform_schedule
+                0x0000000000000ad6      0x680 build/avr-slh/sha256.o
+ .text.write_digest_words
+                0x0000000000001156       0x32 build/avr-slh/sha256.o
+ .text.transform
+                0x0000000000001188       0x32 build/avr-slh/sha256.o
+ .text.final_transform
+                0x00000000000011ba       0xd0 build/avr-slh/sha256.o
+ .text.qp_sha256_init
+                0x000000000000128a       0xa8 build/avr-slh/sha256.o
+                0x000000000000128a                qp_sha256_init
+ .text.hmac_prefix
+                0x0000000000001332       0x64 build/avr-slh/sha256.o
+ .text.qp_sha256_fips205_seed
+                0x0000000000001396      0x10e build/avr-slh/sha256.o
+                0x0000000000001396                qp_sha256_fips205_seed
+ .text.qp_sha256_update
+                0x00000000000014a4       0xb6 build/avr-slh/sha256.o
+                0x00000000000014a4                qp_sha256_update
+ .text.qp_sha256_final
+                0x000000000000155a       0x22 build/avr-slh/sha256.o
+                0x000000000000155a                qp_sha256_final
+ .text.qp_sha256_final_16
+                0x000000000000157c       0x22 build/avr-slh/sha256.o
+                0x000000000000157c                qp_sha256_final_16
+ .text.qp_hmac_sha256_32
+                0x000000000000159e       0x98 build/avr-slh/sha256.o
+                0x000000000000159e                qp_hmac_sha256_32
+ .text.qp_constant_time_equal
+                0x0000000000001636       0x2a build/avr-slh/sha256.o
+                0x0000000000001636                qp_constant_time_equal
+ .text.load_little_endian
+                0x0000000000001660       0x8e build/avr-slh/ascon_aead128.o
+ .text.ascon_round
+                0x00000000000016ee      0x5ec build/avr-slh/ascon_aead128.o
+ .text.ascon_permute12
+                0x0000000000001cda       0x2a build/avr-slh/ascon_aead128.o
+ .text.ascon_permute8
+                0x0000000000001d04       0x2a build/avr-slh/ascon_aead128.o
+ .text.initialize
+                0x0000000000001d2e      0x17c build/avr-slh/ascon_aead128.o
+ .text.absorb_associated_data
+                0x0000000000001eaa      0x240 build/avr-slh/ascon_aead128.o
+ .text.finalize_tag
+                0x00000000000020ea      0x24a build/avr-slh/ascon_aead128.o
+ .text.npq_ascon_aead128_encrypt
+                0x0000000000002334      0x3cc build/avr-slh/ascon_aead128.o
+                0x0000000000002334                npq_ascon_aead128_encrypt
+ .text.npq_ascon_aead128_decrypt
+                0x0000000000002700      0x7a2 build/avr-slh/ascon_aead128.o
+                0x0000000000002700                npq_ascon_aead128_decrypt
+ .text.valid_header
+                0x0000000000002ea2       0x28 build/avr-slh/protocol.o
+ .text.make_nonce
+                0x0000000000002eca       0x66 build/avr-slh/protocol.o
+ .text.hmac_label
+                0x0000000000002f30       0xd6 build/avr-slh/protocol.o
+ .text.ratchet_material
+                0x0000000000003006       0xa4 build/avr-slh/protocol.o
+ .text.hkdf_expand_label
+                0x00000000000030aa       0xd0 build/avr-slh/protocol.o
+ .text.verify_mac16
+                0x000000000000317a       0x6c build/avr-slh/protocol.o
+ .text.npq_make_hello
+                0x00000000000031e6      0x130 build/avr-slh/protocol.o
+                0x00000000000031e6                npq_make_hello
+ .text.npq_verify_hello
+                0x0000000000003316       0x56 build/avr-slh/protocol.o
+                0x0000000000003316                npq_verify_hello
+ .text.npq_verify_challenge
+                0x000000000000336c       0x7e build/avr-slh/protocol.o
+                0x000000000000336c                npq_verify_challenge
+ .text.derive_transcript_prk
+                0x00000000000033ea       0xce build/avr-slh/protocol.o
+ .text.npq_derive_session
+                0x00000000000034b8      0x23c build/avr-slh/protocol.o
+                0x00000000000034b8                npq_derive_session
+ .text.npq_make_finished
+                0x00000000000036f4      0x172 build/avr-slh/protocol.o
+                0x00000000000036f4                npq_make_finished
+ .text.npq_verify_finished
+                0x0000000000003866       0xba build/avr-slh/protocol.o
+                0x0000000000003866                npq_verify_finished
+ .text.npq_seal
+                0x0000000000003920      0x1c6 build/avr-slh/protocol.o
+                0x0000000000003920                npq_seal
+ .text.npq_open
+                0x0000000000003ae6      0x218 build/avr-slh/protocol.o
+                0x0000000000003ae6                npq_open
+ .text.hash_start
+                0x0000000000003cfe       0x40 build/avr-slh/slhdsa.o
+ .text.hash_h   0x0000000000003d3e       0x78 build/avr-slh/slhdsa.o
+ .text.read_signature.constprop.1
+                0x0000000000003db6       0x2c build/avr-slh/slhdsa.o
+ .text.qp_slhdsa_sha2_128s_verify_stream
+                0x0000000000003de2      0xb10 build/avr-slh/slhdsa.o
+                0x0000000000003de2                qp_slhdsa_sha2_128s_verify_stream
+ .text.libgcc.builtins
+                0x00000000000048f2        0xe /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+                0x00000000000048f2                __bswapsi2
+ .text.libgcc.builtins
+                0x0000000000004900       0x32 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+                0x0000000000004900                __ashldi3
+ .text.libgcc.builtins
+                0x0000000000004932       0x3a /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+                0x0000000000004932                __ashrdi3
+                0x0000000000004936                __lshrdi3
+ .text.libgcc.builtins
+                0x000000000000496c       0x36 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+                0x000000000000496c                __rotldi3
+ .text.avr-libc
+                0x00000000000049a2       0x12 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+                0x00000000000049a2                memcpy
+ .text.avr-libc
+                0x00000000000049b4        0xe /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libc.a(memset.o)
+                0x00000000000049b4                memset
+ .text.avr-libc
+                0x00000000000049c2       0x20 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eerd_block.o)
+                0x00000000000049c2                eeprom_read_block
+                0x00000000000049c6                eeprom_read_blraw
+ .text.avr-libc
+                0x00000000000049e2       0x20 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_block.o)
+                0x00000000000049e2                eeprom_update_block
+ .text.avr-libc
+                0x0000000000004a02       0x24 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_byte.o)
+                0x0000000000004a02                eeprom_update_byte
+                0x0000000000004a04                eeprom_update_r18
+ .text.avr-libc
+                0x0000000000004a26        0xc /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega328p.a(eeupd_word.o)
+                0x0000000000004a26                eeprom_update_word
+                0x0000000000004a32                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000004a32        0x0 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                0x0000000000004a32                exit
+                0x0000000000004a32                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000004a32        0x4 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000004a36                _etext = .
+
+.data           0x0000000000800100      0x10e load address 0x0000000000004a36
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.npq_policy_context
+                0x0000000000800100        0xf build/avr-slh/main.o
+ .rodata.ratchet_material.str1.1
+                0x000000000080010f       0x23 build/avr-slh/protocol.o
+ .rodata.npq_make_hello.str1.1
+                0x0000000000800132       0x1f build/avr-slh/protocol.o
+ .rodata.npq_make_challenge.str1.1
+                0x0000000000800151       0x21 build/avr-slh/protocol.o
+ .rodata.npq_derive_session.str1.1
+                0x0000000000800172       0x39 build/avr-slh/protocol.o
+ .rodata.npq_make_finished.str1.1
+                0x00000000008001ab       0x52 build/avr-slh/protocol.o
+ .rodata.domain.1792
+                0x00000000008001fd       0x11 build/avr-slh/protocol.o
+ *(.gnu.linkonce.r*)
+                0x000000000080020e                . = ALIGN (0x2)
+                0x000000000080020e                _edata = .
+                0x000000000080020e                PROVIDE (__data_end, .)
+
+.bss            0x000000000080020e      0x147
+                0x000000000080020e                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.npq_plaintext
+                0x000000000080020e       0x18 build/avr-slh/main.o
+ .bss.npq_frame
+                0x0000000000800226       0x40 build/avr-slh/main.o
+ .bss.npq_challenge
+                0x0000000000800266       0x3c build/avr-slh/main.o
+ .bss.npq_hello
+                0x00000000008002a2       0x30 build/avr-slh/main.o
+ .bss.npq_live_session
+                0x00000000008002d2       0x71 build/avr-slh/main.o
+ .bss.npq_state
+                0x0000000000800343       0x12 build/avr-slh/main.o
+ *(COMMON)
+                0x0000000000800355                PROVIDE (__bss_end, .)
+                0x0000000000004a36                __data_load_start = LOADADDR (.data)
+                0x0000000000004b44                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800355        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800355                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000       0x24
+ *(.eeprom*)
+ .eeprom        0x0000000000810000       0x24 build/avr-slh/main.o
+                0x0000000000810024                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 build/avr-slh/main.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 build/avr-slh/common.o
+ .comment       0x0000000000000011       0x12 build/avr-slh/sha256.o
+ .comment       0x0000000000000011       0x12 build/avr-slh/ascon_aead128.o
+ .comment       0x0000000000000011       0x12 build/avr-slh/protocol.o
+ .comment       0x0000000000000011       0x12 build/avr-slh/slhdsa.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xe0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .debug_aranges
+                0x0000000000000020       0x20 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x0000000000000040       0x20 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_aranges
+                0x0000000000000060       0x20 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .debug_aranges
+                0x0000000000000080       0x20 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x00000000000000a0       0x20 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .debug_aranges
+                0x00000000000000c0       0x20 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0xaa1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_info    0x00000000000005f4       0xab /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .debug_info    0x000000000000069f       0xab /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .debug_info    0x000000000000074a       0xab /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_info    0x00000000000007f5       0xab /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .debug_info    0x00000000000008a0       0xab /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .debug_info    0x000000000000094b       0xab /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .debug_info    0x00000000000009f6       0xab /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+
+.debug_abbrev   0x0000000000000000      0x62e
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_abbrev  0x00000000000005a2       0x14 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .debug_abbrev  0x00000000000005b6       0x14 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .debug_abbrev  0x00000000000005ca       0x14 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x00000000000005de       0x14 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .debug_abbrev  0x00000000000005f2       0x14 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x0000000000000606       0x14 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .debug_abbrev  0x000000000000061a       0x14 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+
+.debug_line     0x0000000000000000      0x4ea
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1a /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_line    0x000000000000001a       0x62 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .debug_line    0x000000000000007c       0x98 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+ .debug_line    0x0000000000000114       0x86 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_line    0x000000000000019a       0x68 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_bswapsi2.o)
+ .debug_line    0x0000000000000202       0xec /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashldi3.o)
+ .debug_line    0x00000000000002ee      0x104 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_ashrdi3.o)
+ .debug_line    0x00000000000003f2       0xf8 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/avr5/libgcc.a(_rotldi3.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x208
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 /tmp/c0-toolchain/node_modules/quirkbot-avr-gcc/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(build/avr-slh/nanopq.elf elf32-avr)
+LOAD linker stubs

@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "rows": [
+    {
+      "profile": "C0 ML-KEM-512 baseline",
+      "role": "KEM each session",
+      "standard": "FIPS 203",
+      "public_key_bytes": 800,
+      "ciphertext_or_signature_bytes": 768,
+      "flash_bytes": 20118,
+      "static_sram_bytes": 2016,
+      "executed_peak_stack_bytes": 611,
+      "total_peak_sram_bytes": 2627,
+      "sram_headroom_bytes": -579,
+      "authorization_ms_at_16mhz": "",
+      "state_model": "stateless KEM",
+      "target_evidence": "link + compiler frame lower bound",
+      "result": "FAIL"
+    },
+    {
+      "profile": "NanoPQ LMS H5/W4",
+      "role": "rare authorization + PSK session",
+      "standard": "RFC 8554 / NIST SP 800-208",
+      "public_key_bytes": 56,
+      "ciphertext_or_signature_bytes": 2348,
+      "flash_bytes": 18188,
+      "state_model": "stateful authority; stateless Nano verifier",
+      "target_evidence": "full compiled AVR execution",
+      "result": "PASS_SIMULATOR",
+      "static_sram_bytes": 587,
+      "executed_peak_stack_bytes": 767,
+      "total_peak_sram_bytes": 1354,
+      "sram_headroom_bytes": 694,
+      "authorization_ms_at_16mhz": 6596.143
+    },
+    {
+      "profile": "NanoPQ LMS H5/W8",
+      "role": "rare authorization + PSK session",
+      "standard": "RFC 8554 / NIST SP 800-208",
+      "public_key_bytes": 56,
+      "ciphertext_or_signature_bytes": 1292,
+      "flash_bytes": 18188,
+      "state_model": "stateful authority; stateless Nano verifier",
+      "target_evidence": "full compiled AVR execution",
+      "result": "PASS_SIMULATOR",
+      "static_sram_bytes": 587,
+      "executed_peak_stack_bytes": 767,
+      "total_peak_sram_bytes": 1354,
+      "sram_headroom_bytes": 694,
+      "authorization_ms_at_16mhz": 47092.135
+    },
+    {
+      "profile": "NanoPQ SLH-DSA-SHA2-128s",
+      "role": "rare authorization + PSK session",
+      "standard": "FIPS 205",
+      "public_key_bytes": 32,
+      "ciphertext_or_signature_bytes": 7856,
+      "flash_bytes": 19268,
+      "state_model": "stateless authority and verifier",
+      "target_evidence": "full compiled AVR execution",
+      "result": "PASS_SIMULATOR",
+      "static_sram_bytes": 597,
+      "executed_peak_stack_bytes": 767,
+      "total_peak_sram_bytes": 1364,
+      "sram_headroom_bytes": 684,
+      "authorization_ms_at_16mhz": 23638.098
+    }
+  ]
+}

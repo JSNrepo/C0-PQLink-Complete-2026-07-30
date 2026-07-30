@@ -1,0 +1,8 @@
+Cisco hash-sigs commit:
+0335491815c908cad85d6035d43785693a4e91f9
+
+PASS: Cisco RFC 8554 reference accepted LMS H5/W4 and rejected tamper
+PASS: Cisco RFC 8554 reference accepted LMS H5/W8 and rejected tamper
+
+Reproduced on 2026-07-30 with:
+make reference-lms HASH_SIGS=/tmp/hash-sigs

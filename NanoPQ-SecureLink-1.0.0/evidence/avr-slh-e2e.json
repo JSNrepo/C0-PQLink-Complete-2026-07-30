@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "label": "EXECUTED_COMPILED_NANOPQ_FIRMWARE_IN_AVR8JS",
+  "physical_hardware_label": "PHYSICAL_NANO_RUN_STILL_REQUIRED",
+  "target": "ATmega328P / classic Arduino Nano",
+  "simulator": "avr8js 0.21.0",
+  "result": "PASS",
+  "assertions": {
+    "post_quantum_signature_streamed_and_verified": true,
+    "signature_not_buffered_in_sram": true,
+    "mutual_session_key_confirmation": true,
+    "ascon_sensor_record_decrypted": true,
+    "tampered_command_rejected_without_ratchet_advance": true,
+    "valid_command_accepted": true,
+    "replayed_command_rejected": true,
+    "eeprom_authorization_survives_reset": true,
+    "boot_epoch_advances_after_reset": true,
+    "post_reset_traffic_keys_change": true
+  },
+  "post_quantum_authorization": {
+    "profile": "FIPS 205 SLH-DSA-SHA2-128s",
+    "state_model": "stateless signer",
+    "signature_bytes": 7856,
+    "verifier_driven_chunks": 491,
+    "executed_cycles": 378209570,
+    "milliseconds_at_16mhz": 23638.098
+  },
+  "memory": {
+    "linker_static_sram_bytes": 597,
+    "baseline_stack_pointer": 2246,
+    "minimum_executed_stack_pointer": 1536,
+    "lowest_touched_address": 1563,
+    "executed_peak_stack_bytes": 767,
+    "minimum_sp_peak_stack_bytes": 767,
+    "watermark_peak_stack_bytes": 741,
+    "executed_total_peak_sram_bytes": 1364,
+    "executed_sram_headroom_bytes": 684,
+    "measurement": "maximum of minimum-SP tracking and 0xA5 SRAM watermark over the executed full path"
+  },
+  "trace": [
+    {
+      "phase": "post_quantum_enrollment",
+      "algorithm": "FIPS 205 SLH-DSA-SHA2-128s",
+      "signature_bytes": 7856,
+      "verifier_driven_chunks": 491,
+      "executed_cycles": 378209570
+    },
+    {
+      "phase": "mutual_handshake",
+      "boot_epoch": 1,
+      "session_id": 1418826301
+    },
+    {
+      "phase": "sensor_before_tamper",
+      "adc": 512,
+      "boot_epoch": 1,
+      "sequence": 0
+    },
+    {
+      "phase": "tampered_command_rejected",
+      "accepted": false,
+      "led": false,
+      "sequence": 1
+    },
+    {
+      "phase": "sensor_after_tamper",
+      "adc": 512,
+      "boot_epoch": 1,
+      "sequence": 2
+    },
+    {
+      "phase": "valid_command_accepted",
+      "accepted": true,
+      "led": true,
+      "sequence": 3
+    },
+    {
+      "phase": "sensor_before_replay",
+      "adc": 512,
+      "boot_epoch": 1,
+      "sequence": 4
+    },
+    {
+      "phase": "replayed_command_rejected",
+      "accepted": false,
+      "led": true,
+      "sequence": 5
+    },
+    {
+      "phase": "sensor_after_reset",
+      "adc": 512,
+      "boot_epoch": 2,
+      "sequence": 0
+    },
+    {
+      "phase": "persistent_reset_safety",
+      "first_epoch": 1,
+      "second_epoch": 2,
+      "reenrollment_required": false
+    }
+  ],
+  "validation_boundary": "Compiled AVR execution and protocol evidence; not a physical-board measurement, CAVP/CMVP validation, or a claim of public-key forward secrecy"
+}

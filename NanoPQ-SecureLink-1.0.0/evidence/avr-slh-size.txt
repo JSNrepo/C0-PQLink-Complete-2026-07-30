@@ -1,0 +1,14 @@
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:   19268 bytes (58.8% Full)
+(.text + .data + .bootloader)
+
+Data:        597 bytes (29.2% Full)
+(.data + .bss + .noinit)
+
+EEPROM:       36 bytes (3.5% Full)
+(.eeprom)
+
+

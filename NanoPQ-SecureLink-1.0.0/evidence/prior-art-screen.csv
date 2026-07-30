@@ -1,0 +1,12 @@
+snapshot_date,candidate,role_or_status,artifact_bytes,relevant_memory_evidence,platform,decision,primary_source
+2026-07-30,ML-KEM-512,FIPS 203 KEM,1568,"C0 build: 2016 B static + 611 B connect frame",ATmega328P,"reject current implementation",https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.203.pdf
+2026-07-30,BabyBear CCA,NIST Round 2 unselected KEM,1721,"1735 B low-memory encapsulation",ATmega1284,"no whole Nano margin",https://orbilu.uni.lu/bitstream/10993/48811/1/CARDIS2020.pdf
+2026-07-30,LightSaber,NIST finalist unselected KEM,1408,"published constrained implementations exceed Nano budget",mixed,"reject for Nano",https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8413.pdf
+2026-07-30,BIKE L1,NIST Round 4 unselected KEM,3114,"no credible ATmega328P fit located",x86-64 comparison,"reject for Nano",https://nvlpubs.nist.gov/nistpubs/ir/2025/NIST.IR.8545.pdf
+2026-07-30,HQC-128,NIST-selected backup KEM,6746,"large artifacts and decoder state",x86-64 comparison,"reject for Nano",https://nvlpubs.nist.gov/nistpubs/ir/2025/NIST.IR.8545.pdf
+2026-07-30,NTRU Prime sntrup653,non-FIPS KEM,1891,"no sub-1-KiB Nano encapsulation located",mixed,"reject for Nano",https://ntruprime.cr.yp.to/
+2026-07-30,CTRU-Light,2026 research KEM,1152,"2463 B encapsulation stack",ATmega1284P,"research lesson only",https://github.com/whYBeKim/CTRU-Light-and-PQC-on-AVR
+2026-07-30,LMS H5/W4,RFC 8554 / SP 800-208 signature,2404,"1354 B full executed peak",ATmega328P simulator,"selected authorization",https://www.rfc-editor.org/rfc/rfc8554
+2026-07-30,LMS H5/W8,RFC 8554 / SP 800-208 signature,1348,"1354 B full executed peak",ATmega328P simulator,"wire-optimized alternative",https://www.rfc-editor.org/rfc/rfc8554
+2026-07-30,SLH-DSA-SHA2-128s,FIPS 205 signature,7888,"1364 B full executed peak",ATmega328P simulator,"stateless alternative",https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.205.pdf
+

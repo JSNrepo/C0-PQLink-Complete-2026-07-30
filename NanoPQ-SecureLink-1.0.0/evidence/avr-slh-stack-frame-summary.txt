@@ -1,0 +1,2 @@
+largest_single_compiler_frame_bytes=403
+largest_single_compiler_frame_record=slhdsa.c:406:18:qp_slhdsa_sha2_128s_verify_stream	403	static
